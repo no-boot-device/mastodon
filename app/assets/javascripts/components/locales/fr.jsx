@@ -44,7 +44,7 @@ const fr = {
   "tabs_bar.public": "Fil public global",
   "tabs_bar.notifications": "Notifications",
   "compose_form.placeholder": "Qu’avez-vous en tête ?",
-  "compose_form.publish": "Pouet ",
+  "compose_form.publish": "Toot ",
   "compose_form.sensitive": "Marquer le média comme délicat",
   "compose_form.spoiler": "Masquer le texte par un avertissement",
   "compose_form.private": "Rendre privé",
