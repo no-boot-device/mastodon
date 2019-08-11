@@ -4,6 +4,7 @@ class Api::V1::AppsController < Api::BaseController
   skip_before_action :require_authenticated_user!
 
   def create
+    raise Mastodon::NotPermittedError if app_params[:client_name] == "Fedilab"
     @app = Doorkeeper::Application.create!(application_options)
     render json: @app, serializer: REST::ApplicationSerializer
   end
